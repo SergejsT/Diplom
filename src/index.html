@@ -45,7 +45,7 @@
     </div> 
 
 
-    
+
 
    <div class="subheader">
       <div class="container">
@@ -102,9 +102,42 @@
   
   </header>
   <h1>Hello, world!</h1>
+
+  <section class="top-banner">
+    <div class="container">
+      <h1 class="heading">Simple Weather App</h1>
+      <form>
+        <input type="text" placeholder="Search for a city" autofocus>
+        <button type="submit">SUBMIT</button>
+        <span class="msg"></span>
+      </form>
+    </div>
+  </section>
+  <section class="ajax-section">
+    <div class="container">
+      <ul class="cities"></ul>
+    </div>
+  </section>
+
+  <div class="mapouter">
+    <div class="gmap_canvas">
+      <iframe width="300"
+        height="200" 
+        id="gmap_canvas" 
+        src="https://maps.google.com/maps?q=Krustabazn%C4%ABcas%20iela%209a&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+        frameborder="0" 
+        scrolling="no" 
+        marginheight="0" 
+        marginwidth="0">
+      </iframe>
+    </div>
+  </div>
+
   <fotter class="copyright">
-    <span>Sergejs Timofejevs gr.56 © 2021</span>
+    <span>Sergejs Timofejevs, grupa GR-56 © 2021</span>
   </fotter>
+    <script src="js/script.js"></script>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

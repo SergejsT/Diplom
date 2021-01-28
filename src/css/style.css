@@ -21,6 +21,15 @@
     padding: 18px;
 }
 
+
+
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+}
+
 .copyright {
     background-color: #6e716e;
     color: #fff;
