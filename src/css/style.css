@@ -4,9 +4,7 @@
 .panel_wrapper {
     background-color: #6e716e;
     color: #fff;
-    box-sizing: border-box;
-    display: block;
-    padding: 10px;
+    padding: 3px;
     text-align: center;
 
 }
